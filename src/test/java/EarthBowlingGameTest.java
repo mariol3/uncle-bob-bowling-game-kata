@@ -4,13 +4,13 @@ import org.junit.Test;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class BowlingGameTest {
+public class EarthBowlingGameTest {
 
     private BowlingGame game;
 
     @Before
     public void setUp() throws Exception {
-        game = new BowlingGame();
+        game = new BowlingGame(new EarthScorer());
     }
 
     @Test
