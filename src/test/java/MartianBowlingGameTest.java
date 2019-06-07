@@ -10,7 +10,7 @@ public class MartianBowlingGameTest {
 
     @Before
     public void setUp() throws Exception {
-        game = new BowlingGame(new MartianScorer());
+        game = new BowlingGame(new MartianRules());
     }
 
     @Test
